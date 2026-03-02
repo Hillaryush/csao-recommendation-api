@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: csao-api
+    env: python
+    buildCommand: ""
+    startCommand: uvicorn api.app:app --host 0.0.0.0 --port 10000
+    plan: free
