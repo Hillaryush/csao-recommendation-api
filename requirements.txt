@@ -1,8 +1,9 @@
 fastapi
 uvicorn
-lightgbm
 pandas
 numpy
-scikit-learn
+lightgbm
 sqlalchemy
 psycopg2-binary
+pydantic
+python-dotenv
